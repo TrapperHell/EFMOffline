@@ -2,8 +2,10 @@
 
 namespace EFMOffline.Models
 {
-    public class MediaResponse
+    public class MediaPage
     {
+        public MediaPagePagination Pagination { get; set; }
+
         public List<Media> Media { get; set; }
     }
 }
